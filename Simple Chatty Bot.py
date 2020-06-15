@@ -4,7 +4,7 @@ def greet(bot_name, birth_year):
 
 
 def remind_name():
-    print('Please, remind me your name.')
+    print('Please, remind me of your name.')
     name = input()
     print('What a great name you have, ' + name + '!')
 
@@ -48,9 +48,6 @@ def test():
 
 def end():
     print('Congratulations, have a nice day!')
-
-
-
 
 
 greet('Aid', '2020')  # change it as you need
